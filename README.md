@@ -1,6 +1,6 @@
 # 📈 Cryptocurrency Trading Strategy: BTC-ETH Lag, Correlation & BTC Candle Percentage Change
 
-This notebook explores the development and backtesting of **two short-term Ethereum (ETH) trading strategies** based on **Bitcoin (BTC) price movements**, using historical data from Yahoo Finance via `yfinance`.
+This notebook explores the development and backtesting of **two short-term Ethereum (ETH) trading strategies** based on **Bitcoin (BTC) price movements**, using historical data from Yahoo Finance via `yfinance` `kaggle`.
 
 ---
 ## 📊 Strategy Performance Example
