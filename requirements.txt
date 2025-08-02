@@ -1,0 +1,12 @@
+yfinance # Yahoo Finance API for historical crypto & stock data
+
+pandas # High-performance data analysis and manipulation
+
+numpy # Scientific computing and numerical operations
+
+matplotlib # Data visualization (line charts, histograms, etc.)
+
+seaborn # Enhanced statistical graphics and aesthetic themes for matplotlib
+
+ccxt # Cryptocurrency market data and trading via centralized exchanges (e.g. Binance, Coinbase)
+
