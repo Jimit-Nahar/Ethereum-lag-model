@@ -99,29 +99,30 @@ This strategy trades ETH when **BTC shows a significant candle move** (up/down) 
 
 ## 📌 Key Findings & Insights
 
-- ❌ **Initial lag/correlation strategy** underperformed ETH benchmark.
-- ✅ **Dynamic correlation + stop-loss** improved risk-adjusted returns.
-- ⚠️ 1-minute version showed some promise; 15-minute version struggled.
-- ✅ **BTC Candle % Change Strategy**:
+- **Initial lag/correlation strategy** underperformed ETH benchmark.
+- **Dynamic correlation + stop-loss** improved risk-adjusted returns.
+- 1-minute version showed some promise; 15-minute version struggled.
+- **BTC Candle % Change Strategy**:
   - Highly sensitive to threshold.
   - Optimal threshold (0.10%) achieved Sharpe Ratio ≈ **1.97**.
   - Stop-loss further improved returns.
-- ❌ Strategy with Nasdaq benchmark underperformed both ETH and Nasdaq.
+
 
 ---
 
 ## 🔮 Potential Next Steps
 
-- 🛠 **Parameter Optimization**: Fine-tune thresholds, durations, windows.
-- 🧠 **New Signals & Exits**: Try RSI, Bollinger Bands, dynamic exits.
-- 🧯 **Risk Management**: Add volatility-based sizing, max drawdown limits.
-- 💸 **Transaction Costs**: Add slippage and fee modeling.
-- 🧪 **Out-of-Sample Testing**: Prevent overfitting, improve robustness.
-- 📉 **Market Regimes**: Study bull vs. bear market impact on strategy.
+- **Parameter Optimization**: Fine-tune thresholds, durations, windows.
+- **New Signals & Exits**: Try RSI, Bollinger Bands, dynamic exits.
+- **Risk Management**: Add volatility-based sizing, max drawdown limits.
+- **Transaction Costs**: Add slippage and fee modeling.
+- **Out-of-Sample Testing**: Prevent overfitting, improve robustness.
+- **Market Regimes**: Study bull vs. bear market impact on strategy.
 
 ---
 
 ## 📦 Requirements
+I have attached a `requirements.txt` file.
 
 - Python 3.6+
 - [`yfinance`](https://pypi.org/project/yfinance/)
@@ -133,4 +134,4 @@ This strategy trades ETH when **BTC shows a significant candle move** (up/down) 
 ### ✅ Install Dependencies:
 
 ```bash
-pip install yfinance pandas numpy matplotlib seaborn
+pip install requirements.txt
